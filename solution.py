@@ -8,4 +8,4 @@ def solution(x: np.array) -> float:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return np.log(np.exp(sample - 723).mean()  # Ваш ответ# Ваш ответ
+    return np.log(abs(np.exp(sample) - 723)).mean()  # Ваш ответ# Ваш ответ
